@@ -9,9 +9,7 @@ body {
 
 .portfolioBanner{
     width: 100%;
-/*    background-color: darkcyan;
-*/    
-    background-color: red;
+    background-color: darkcyan;
     color: whitesmoke;
     font-family: 'Josefin Slab', serif;
     font-weight: 200;

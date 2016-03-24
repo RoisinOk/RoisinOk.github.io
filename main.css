@@ -1,0 +1,407 @@
+.body{
+    background-color: whitesmoke;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.2) 35px, rgba(255,255,255,.2) 70px);
+}
+
+/*#titleDiv {*/
+    /*width:100%;*/
+    /*height: 800px;*/
+    /*background-color: whitesmoke;*/
+    /*color: darkcyan;*/
+    /*font-family: 'Josefin Slab', serif;*/
+    /*text-align: center;*/
+/*}*/
+
+#decoMiddle {
+    width: 213px;
+    height: 36px;
+    fill: none;
+    stroke: #008C8C;
+}
+
+#penLeft{
+    width: 103px;
+    height: 65px;
+    fill: none;
+    stroke: #008C8C;
+    position: absolute;
+    left: 10%;
+    stroke-width: 2.5;
+    top: 256px;
+}
+
+#penRight{
+    width: 103px;
+    height: 65px;
+    fill: none;
+    stroke: #008C8C;
+    position: absolute;
+    right: 10%;
+    stroke-width: 2.5;
+    top: 256px;
+}
+#decoLeft{
+    fill: none;
+    width:126px;
+    height: 18px;
+    stroke: #008C8C;
+    position: absolute;
+    left: 25%;
+    stroke-width: 2.5;
+    top: 280px;
+}
+
+#decoRight{
+    fill: none;
+    width:126px;
+    height: 18px;
+    stroke: #008C8C;
+    position: absolute;
+    right: 25%;
+    stroke-width: 2.5;
+    top: 280px;
+}
+
+
+
+#titleDiv{
+    color: darkcyan;
+    text-align: center;
+    /*margin:8%;*/
+    padding-bottom: 160px;
+    padding-top: 60px;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.2) 35px, rgba(255,255,255,.2) 70px);
+}
+
+#hello{
+    font-size: 5em;
+    font-family: "Passion One", sans-serif;
+}
+
+#myNameIs{
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.6em;
+}
+
+#roisin{
+    font-size: 8em;
+    font-family: "Passion One", sans-serif;
+}
+
+#andImA{
+    font-size: 2.3em;
+    font-family: 'Josefin Slab', serif;
+}
+
+.uxUi {
+    font-size: 3em;
+    font-family: "Passion One", sans-serif;
+}
+
+
+#designer{
+    font-family: 'Passion One', serif;
+    font-size: 6em;
+}
+
+#and{
+    font-size: 3.9em;
+    font-family: 'Josefin Slab', serif;
+}
+
+#andCoder {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.8em;
+}
+
+
+/*.portSectionHeader {*/
+    /*color: darkcyan;*/
+    /*text-align: center;*/
+    /*/!*height: 600px;*!/*/
+    /*margin:8%;*/
+    /*font-family: 'Josefin Slab', serif;*/
+    /*color: darkcyan;*/
+    /*font-size: 2em;*/
+/*}*/
+
+#aboutCircle {
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    background-color: darkcyan;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Josefin Slab';
+}
+
+#aboutIcon {
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 3px;
+    margin-top: 0px;
+    /*padding: 20px;*/
+    stroke: whitesmoke;
+    stroke-width: 1;
+    fill: none;
+    stroke-linecap: round;
+    /*border: solid indianred;*/
+    /*position: relative;*/
+    /*top: -75px;*/
+
+
+    /*fill: #FaFaFa; */
+}
+#portfolioCircle {
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    color: darkcyan;
+    text-align: center;
+    font-family: 'Josefin Slab';
+    /*border: solid whitesmoke;*/
+}
+
+#portfolioIcon{
+    width: 65%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: none;
+    right: 22px;
+    top: 0px;
+    padding: 20px;
+    stroke:  darkcyan;
+    stroke-width: 1;
+    fill: none;
+    stroke-linecap: round;
+    position: absolute;
+    /*border: solid indianred;*/
+}
+
+#contactCircle {
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    background-color: darkcyan;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Josefin Slab';
+}
+
+#contactIcon{
+    width: 65%;
+    height: 100%;
+    margin-left: -20px;
+    margin-top: 0%;
+    right: 24px;
+    top: 0px;
+    display: none;
+    padding: 20px;
+    stroke: whitesmoke;
+    stroke-width: 1;
+    fill: none;
+    stroke-linecap: round;
+    position: absolute;
+    /*border: solid indianred;*/
+}
+
+#aboutDiv{
+    position: relative;
+    width:100%;
+    background-color: darkCyan;
+    padding-bottom: 10%;
+}
+
+#portfolioDiv{
+    text-align: center;
+    position: relative;
+    width:100%;
+    background-color: whitesmoke;
+    font-family: 'Josefin Slab', serif;
+    color: darkcyan;
+    font-size: 2em;
+    display: block;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+#contactDiv{
+    /*position: relative;*/
+     width:100%;
+     height: 600px;
+     background-color: darkcyan;
+    padding-bottom: 10%;
+ }
+
+#bigAbout{
+    color: whitesmoke;
+    font-family: "Passion One", sans-serif;
+    font-size: 6em;
+    margin-top: 0px;
+}
+
+#contactMeText {
+    color: whitesmoke;
+    font-family: "Josefin Slab", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
+#aboutText{
+    color: whitesmoke;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.2em;
+    line-height: 1.7;
+
+}
+
+#smallAbout{
+    color: whitesmoke;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.2em;
+    line-height: 1.7;
+    margin-top: 0px;
+}
+
+#contactMessage{
+    color: whitesmoke;
+    font-family: "Josefin Slab", serif;
+    font-size: 1.2em;
+    line-height: 1.7;
+    text-align: center;
+    margin: auto;
+}
+
+.navLinkGroup {
+    margin: auto;
+    width: 70%;
+}
+
+.navLink {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: block;
+    float:left;
+    width: 25%;
+}
+
+.navLink :hover {
+background-color: darkcyan;
+color: whitesmoke;
+}
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: auto;
+    width: 70%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_1_of_3 {
+    width: 30%;
+    margin: 3%;
+}
+
+.span_1_of_2 {
+    width: 47%;
+    margin: 1% 0 1% 6%;
+}
+
+/*.imgWrap {*/
+    /*position: relative;*/
+
+/*}*/
+
+.span_1_of_3:hover{
+    opacity: .3;
+}
+
+.span_3_of_4 {
+    width: 74.6%;
+}
+
+.span_1_of_4 {
+    width: 23.8%;
+}
+
+.span_3_of_3b {
+    width: 100%;
+    margin: 1% 0 1% 7%;
+
+}
+.span_2_of_3b {
+    width: 64.33%;
+    margin: 1% 0 1% 7%;
+}
+.span_1_of_3b {
+    width: 28.66%;
+    margin: 1% 0 1% 7%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {  margin: 6% 0 6% 0%; }
+    .span_3_of_3, .span_1_of_2, .span_1_of_3, .span_1_of_3b, .span_2_of_3b  { width: 100%; }
+    #bigAbout {font-size: 4em;}
+    #roisin {font-size: 7em;}
+    /*#hello {font-size: 2.3em;}*/
+    #myNameIs {font-size: 2.3em;}
+    #andImA {font-size: 2.2em;}
+    #uxUi {font-size: 4em;}
+    #andCoder {font-size: 1.5em;}
+    #smallAbout{font-size: 1.2em}
+    #decoLeft{display: none}
+    #decoRight{display: none}
+    #penLeft{display: none}
+    #penRight{display: none}
+}
+
+/*  FOR TABLETS */
+@media only screen and (max-width: 1020px) {
+    .section {width: 90%}
+    #bigAbout {font-size: 5em;}
+    #decoLeft{left: 18%}
+    #decoRight{right: 18%}
+    #penLeft{left: 5%}
+    #penRight{right: 5%}
+
+}
+
+
+
+.diaStripes1{
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.2) 35px, rgba(255,255,255,.2) 70px);
+}

@@ -1,0 +1,341 @@
+
+
+body {
+    font-size: 100%;
+    background-color: whitesmoke;
+}
+
+
+
+.portfolioBanner{
+    width: 100%;
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 200;
+    height: 75px;
+    position: relative;
+}
+
+.portfolioFooter{
+    width: 100%;
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 200;
+    height: 120px;
+    position: relative;
+}
+
+.closeXDiv{
+    width: 40px;
+    height: 40px;
+    stroke-linecap: round;
+    stroke: white;
+    opacity: .6;
+    stroke-width: 5;
+    fill: none;
+    float: right;
+    padding: 16px;
+}
+
+.closeXDiv:hover{
+    opacity: 1;
+    stroke: white;
+}
+
+
+.projectName{
+    color: darkgrey;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4.5em;
+    font-weight: 5;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+#lineCircle{
+    width: 100%;
+    height: 100%;
+    stroke: darkcyan;
+    stroke-width: 5;
+    fill: none;
+    stroke-linecap: round;
+}
+
+#underlineDiv{
+    width: 40%;
+    margin: auto;
+}
+
+.projectDesc{
+    font-family: 'Josefin Slab', serif;
+    color: darkcyan;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+#cardsImage{
+    margin: auto;
+    width:100%;
+}
+
+#competitionImage{
+    margin: auto;
+    width:100%;
+}
+
+#styleTileImage{
+    margin: auto;
+    width:100%;
+}
+
+#siteMapImage{
+    margin: auto;
+    width:100%;
+}
+
+.fullWidthImage{
+    display: block;
+    margin: auto;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+    color: darkgrey;
+}
+
+.brief{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+}
+
+.userStories {
+    background-color: white;
+    width: 85%;
+    margin: auto;
+}
+
+.brief p{
+    font-weight: 200;
+    text-align: center;
+    padding: 2%;
+    border-radius: 2px;
+}
+
+.userStories p{
+    font-weight: 200;
+    /*text-align: left;*/
+    padding: 2%;
+    border-radius: 2px;
+}
+
+.userStories h5 {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+}
+
+p{
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    line-height: 170%;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+p span {
+    font-weight: bold;
+    color: darkcyan;
+}
+
+
+
+h3{
+    color: darkcyan;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+h4{
+    color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+h5{
+    color: darkcyan;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+
+a {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+    color: darkgrey;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_1_of_3 {
+    width: 30%;
+    margin: 2%;
+}
+
+.span_1_of_2 {
+    width: 47%;
+    margin: 2%;
+}
+
+.span_1_of_8 {
+    width: 11.62%;
+    margin: .4%;
+    background-color: aqua;
+}
+
+.span_1_of_4 {
+    width: 23.8%;
+    margin: 1% 0 1% 1.6%;
+}
+
+.span_3_of_4 {
+    width: 74.6%;
+    margin: 1% 0 1% 1.6%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {  margin: 1% 0 1% 0%; }
+    .span_1_of_3, .span_1_of_2, .portfolioContent{ width: 100%; }
+}
+
+
+.portfolioContent{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+
+
+.leftDiv{
+    width: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    float:left;
+}
+
+.left{
+    stroke-linecap: round;
+    stroke: gainsboro;
+    stroke-width: 5;
+    fill: none;
+}
+
+.left:hover{
+    stroke :white;
+}
+.houseDiv{
+    width: 5%;
+    position: absolute;
+    left: 38%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.house{
+    stroke-linecap: round;
+    stroke: gainsboro;
+    stroke-width: 5;
+    fill: none;
+}
+
+.house:hover{
+    stroke :white;
+}
+
+.rightDiv{
+    width: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    float:right;
+}
+
+.right{
+
+    stroke-linecap: round;
+    stroke: gainsboro;
+    stroke-width: 5;
+    fill: none;
+
+}
+
+.right:hover{
+    stroke :white;
+}
+
+.iconsDiv{
+    width:85%;
+    height: 100px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 25px;
+    position: absolute;
+}
+
+#playButton{
+    width:20%;
+    margin: auto;
+    display:block;
+}
+
+#playDiv{
+    width: 100%
+    background-color: red;
+    position: relative;
+}
+
+#prototype{
+    margin: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}

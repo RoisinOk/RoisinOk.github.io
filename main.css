@@ -23,7 +23,8 @@
     width: 103px;
     height: 65px;
     fill: none;
-    stroke: #008C8C;
+    /*stroke: #008C8C;*/
+    stroke: red;
     position: absolute;
     left: 10%;
     stroke-width: 2.5;

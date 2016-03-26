@@ -381,34 +381,7 @@ color: whitesmoke;
     margin: 1% 0 1% 7%;
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-    .col {  margin: 6% 0 6% 0%; }
-    .span_3_of_3, .span_1_of_2, .span_1_of_3, .span_1_of_3b, .span_2_of_3b  { width: 100%; }
-    #bigAbout {font-size: 4em;}
-    #roisin {font-size: 7em;}
-    /*#hello {font-size: 2.3em;}*/
-    #myNameIs {font-size: 2.3em;}
-    #andImA {font-size: 2.2em;}
-    #uxUi {font-size: 4em;}
-    #andCoder {font-size: 1.5em;}
-    #smallAbout{font-size: 1.2em}
-    #decoLeft{display: none}
-    #decoRight{display: none}
-    #penLeft{display: none}
-    #penRight{display: none}
-}
 
-/*  FOR TABLETS */
-@media only screen and (max-width: 1020px) {
-    .section {width: 90%}
-    #bigAbout {font-size: 5em;}
-    #decoLeft{left: 18%}
-    #decoRight{right: 18%}
-    #penLeft{left: 5%}
-    #penRight{right: 5%}
-
-}
 
 
 
@@ -482,4 +455,42 @@ color: whitesmoke;
     line-height: 1.7;
     background-color: whitesmoke;
     width: 100%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+@media screen and (max-width: 480px) {
+    #penLeft{opacity: 0;}
+    #penRight{opacity: 0;}
+    #decoRight{opacity: 0;}
+    #decoLeft{opacity: 0;}
+    #mainform123{width: 90%;}
+}
+
+@media only screen and (max-width: 480px) {
+    .col {  margin: 6% 0 6% 0%; }
+    .span_3_of_3, .span_1_of_2, .span_1_of_3, .span_1_of_3b, .span_2_of_3b  { width: 100%; }
+    #bigAbout {font-size: 4em;}
+    #roisin {font-size: 7em;}
+    /*#hello {font-size: 2.3em;}*/
+    #myNameIs {font-size: 2.3em;}
+    #andImA {font-size: 2.2em;}
+    #uxUi {font-size: 4em;}
+    #andCoder {font-size: 1.5em;}
+    #smallAbout{font-size: 1.2em}
+    #decoLeft{display: none}
+    #decoRight{display: none}
+    #penLeft{display: none}
+    #penRight{display: none}
+}
+
+/*  FOR TABLETS */
+@media only screen and (max-width: 1020px) {
+    .section {width: 90%}
+    #bigAbout {font-size: 5em;}
+    #decoLeft{left: 18%}
+    #decoRight{right: 18%}
+    #penLeft{left: 5%}
+    #penRight{right: 5%}
+
 }

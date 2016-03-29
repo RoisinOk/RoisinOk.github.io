@@ -114,7 +114,6 @@ body {
 
 .userStories {
     background-color: white;
-    width: 85%;
     margin: auto;
 }
 
@@ -184,6 +183,13 @@ a {
 a:hover{
     text-decoration: underline;
     color: darkcyan;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    line-height: 200%;
+    text-align: left;
 }
 
 /*  SECTIONS  */

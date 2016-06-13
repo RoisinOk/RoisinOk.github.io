@@ -152,7 +152,6 @@ p span {
 }
 
 
-
 h3{
     color: darkcyan;
     font-family: 'Josefin Slab', serif;
@@ -243,9 +242,6 @@ li {
     width: 74.6%;
     margin: 1% 0 1% 1.6%;
 }
-
-
-
 
 .portfolioContent{
     width: 70%;
@@ -349,3 +345,4 @@ li {
     #playButton{width:90%;}
     .noShowMobile{display: none;}
 }
+

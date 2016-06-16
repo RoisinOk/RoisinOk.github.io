@@ -362,7 +362,7 @@ li {
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
     .col {  margin: 1% 0 1% 0%; }
-    .span_1_of_3, .span_1_of_2, .portfolioContent, .span_1_of_8{ width: 100%; }
+    .span_1_of_3, .span_1_of_2, .portfolioContent, .span_1_of_8, .span_1_of_4{ width: 100%; }
     #playButton{width:90%;}
     .noShowMobile{display: none;}
 }

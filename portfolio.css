@@ -468,3 +468,7 @@ button.accordion.active:after {
     margin-left: auto;
     margin-right: auto;
 }
+
+.comingSoon{
+    text-align: center;
+}

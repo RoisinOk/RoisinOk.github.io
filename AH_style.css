@@ -1,0 +1,367 @@
+
+body{
+    background-image: linear-gradient(-135deg, #8897A0 0%,  #ECEFF4 100%);
+    color: #4E656F;
+}
+
+.logo{
+    padding-top: 50px;
+    margin: auto;
+}
+
+.navbar{
+    height: 100px;
+    border-radius: 0px;
+}
+
+.gridcol{
+    background-color: black;
+    height: 100px;
+}
+
+.first{
+    border-left: solid 1px black;
+    opacity: .1;
+}
+
+.gridDivision{
+    border-right: solid 1px black;
+    opacity: .1;
+}
+
+
+.circle {
+    border-radius: 50%;
+    width: 80%;
+    padding-bottom: 80%;
+    background: deepskyblue;
+    display: block;
+    margin: auto;
+}
+
+.hex{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.parchment{
+    background-color: #3B9FE2;
+}
+
+.softLeaf{
+   background-color: #6CBC88;
+}
+
+.softMint{
+    background-color: #ECEFF4;
+}
+
+.charcoal{
+    background-color: #8897A0;
+}
+
+.charcoalTransparent{
+    background-color: #B8C0C6;
+}
+
+.rust{
+    background-color: #DB454A;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 10px 10px 30px 0 rgba(0,0,0,0.21);
+}
+
+.colourRow{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*TYPOGRAPHY*/
+
+.typographyRow{
+    padding: 20px;
+}
+
+h1{
+    font-family: OpenSans;
+    font-size: 36px;
+    color: #3B9FE2;
+}
+
+h2{
+
+    font-family: OpenSans;
+    font-size: 28px;
+    color: #3B9FE2;
+}
+
+h3{
+    font-family: OpenSans;
+    font-size: 25px;
+    color: #3B9FE2;
+}
+
+h4{
+    font-family: OpenSans-Semibold;
+    font-size: 21px;
+    color: #767D86;
+    line-height: 32px;
+}
+
+h5{
+    font-family: OpenSans;
+    font-size: 18px;
+    color: #767D86;
+}
+
+
+
+
+.body1{
+    font-family: OpenSans;
+    font-size: 16px;
+    color: #767D86;
+    line-height: 32px;
+}
+
+.body1 a{
+    color: #767D86;
+    border-bottom: 3px solid #3B9FE2;
+}
+
+.body1 a:hover{
+    color: #3B9FE2;
+    border-bottom: 3px solid #3B9FE2;
+    text-decoration: none;
+}
+
+.buttonCard{
+    padding:30px;
+    background-color: white;
+}
+
+.mainButton{
+    padding: 8px 50px 8px 50px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background: #6CBC88;
+    box-shadow: 0 4px 0 0 #68A07C;
+    border-radius: 2px;
+}
+
+.mainButton:hover{
+    background-color: #78cd94;
+}
+
+.mainButton:focus {
+    outline: none;
+}
+
+.Button3{
+    padding: 8px 50px 8px 50px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background: #3B9FE2;
+    box-shadow: 0 4px 0 0 #3179b2;
+    border-radius: 2px;
+}
+
+.Button3:hover{
+    background-color: #3ea4ea;
+}
+
+.Button3:focus {
+    outline: none;
+}
+
+.Button4{
+    padding: 8px 50px 8px 50px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background: #DB454A;
+    box-shadow: 0 4px 0 0 #bb3b40;
+    border-radius: 2px;
+}
+
+.Button4:hover{
+    background-color: #db5357;
+}
+
+.Button4:focus {
+    outline: none;
+}
+
+
+.secondaryButton{
+    -webkit-box-shadow:inset 0px 0px 0px 2px #3B9FE2;
+    -moz-box-shadow:inset 0px 0px 0px 2px #3B9FE2;
+    box-shadow:inset 0px 0px 0px 2px #3B9FE2;
+    border-radius: 2px;
+    padding: 8px 50px 8px 50px;
+    border: none;
+    color: #3B9FE2;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.secondaryButton:hover{
+    background-color: #3B9FE2;
+    color: white;
+}
+
+.secondaryButton:focus {
+    outline: none;
+}
+
+.bottomBuffer{
+    margin-bottom: 20px;
+}
+
+
+
+/*__________STYLED CHECKBOXES___________*/
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label .box {
+    display:inline-block;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #B8C0C6;
+    background-color: white;
+    vertical-align: middle;
+    cursor:pointer;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+}
+
+input[type="checkbox"]:checked + label .box {
+    background-color: #3B9FE2;
+    border: #3B9FE2;
+}
+
+input[type="checkbox"] + label .box:hover {
+    background-color: rgba(59, 159, 226);
+    border: 2px solid #3B9FE2;
+
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label .box {
+    display:inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 22px;
+    border: 2px solid #B8C0C6;
+    background-color: white;
+    vertical-align: middle;
+    cursor:pointer;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+input[type="radio"] + label .box:hover {
+    background-color: rgba(59, 159, 226);
+    border: 2px solid #3B9FE2;
+}
+
+
+input[type="radio"]:checked + label .box {
+    background-color: #3B9FE2;
+    border: #3B9FE2;
+}
+
+
+/*Stops the checkbox label from highlighting blue when clicked.*/
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkboxText{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*__________PAGINATION___________*/
+
+ul.pageList {
+    display: inline-block;
+    padding: 0;
+    float:right;
+}
+
+ul.pageList li {display: inline;}
+
+ul.pageList li a {
+    color: #767D86;
+    float: left;
+    padding: 3px 14px;
+    text-decoration: none;
+    margin: 0 4px;
+    border: 2px solid #B8C0C6;
+    border-radius: 2px;
+}
+/*__________MEDIA QUERIES___________*/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    h1{
+        font-size: 21px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h4{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+
+    .body1{
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+
+

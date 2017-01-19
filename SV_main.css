@@ -571,15 +571,16 @@ body {
 
 .bsCol{
     position: relative !important;
-    /*To enable hardware acceleration*/
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+
 }
 
 .bookingSummary{
     background-color: Linen;
     margin-top: 26px;
     padding: 20px;
+    /*To enable hardware acceleration*/
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .affix{

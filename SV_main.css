@@ -489,6 +489,9 @@ body {
 .bookingSummary h4{
     color: #00b0c0;
     /*font-size: 1.4em;*/
+    /*To enable hardware acceleration*/
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .bookingInfo{

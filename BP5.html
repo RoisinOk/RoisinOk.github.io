@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Testing Fixed Box</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+    <!--&lt;!&ndash; Bootstrap &ndash;&gt;-->
+    <!--<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="SV_main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--<div class="container">-->
+    <!--<a href="index.html"><img id="headerLogo" src="images/logo_header.png"></a>-->
+    <!--<a href="#"><img class="socialMediaIcon hidden-xs" src="images/icon_fb.png"></a>-->
+    <!--<a href="#"><img class="socialMediaIcon hidden-xs" src="images/icon_tw.png"></a>-->
+    <!--<a href="#"><img class="socialMediaIcon hidden-xs" src="images/icon_in.png"></a>-->
+<!--</div>-->
+
+<nav class="navbar">
+    <div class="container-fluid fluidNav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">T&C's</a></li>
+                    <!--<li><a href="https://shop.supervalu.ie/shopping/">supervalue.ie</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+
+        <div class="bsCol col-lg-6 col-md-6">
+            <div class="bookingSummary" data-spy="affix" data-offset-top="60" data-offset-bottom="150">
+                <h4>Booking Summary</h4>
+                <div class="row bookingInfo">
+                    <table style="width:100%">
+                        <tr>
+                            <td class="leftInfo">Staying At</td>
+                            <td class="rightInfo">Clayton Hotel Galway</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo">Check In</td>
+                            <td class="rightInfo">29 Sep 16</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo">Check Out</td>
+                            <td class="rightInfo">30 Sep 16</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo">Adults</td>
+                            <td class="rightInfo">2</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo">Children</td>
+                            <td class="rightInfo">0</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo">Offer</td>
+                            <td class="rightInfo">1 night Bed & Breakfast</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo">Room Type</td>
+                            <td class="rightInfo">Double Room</td>
+                        </tr>
+
+                        <tr>
+                            <td class="leftInfo">Room Total</td>
+                            <td class="rightInfo">€190</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo">Booking Fee</td>
+                            <td class="rightInfo">€2.95</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo moneyInfo">Deposit Required Now</td>
+                            <td class="rightInfo moneyInfo">€19.95</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo moneyInfo">Payment on Arrival</td>
+                            <td class="rightInfo moneyInfo">€173</td>
+                        </tr>
+                        <tr>
+                            <td class="leftInfo moneyInfo totalCost">Total Cost</td>
+                            <td class="rightInfo moneyInfo totalCost">€192.95</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <h1 class="pageHeading">Guest Details</h1>
+
+            <form id="detailsForm">
+                Title
+                <select class="detailsInput" id="titleInput" name="title">
+                    <option value="1">Mr</option>
+                    <option value="1">Ms</option>
+                    <option value="2">Mrs</option>
+                    <option value="3">Miss</option>
+                </select>
+
+                <div class="leftInput">
+                    First name*<br>
+                    <input class="detailsInput" type="text" name="firstname">
+                </div>
+                <div class="rightInput">
+                    Surname*<br>
+                    <input class="detailsInput" type="text" name="lastname">
+                </div>
+                Address*<br>
+                <input class="detailsInput" type="text" name="addressLine1">
+                <input class="detailsInput" type="text" name="addressLine2">
+                City*<br>
+                <input class="detailsInput" type="text" name="city">
+                County/State*<br>
+                <input class="detailsInput" type="text" name="county">
+                County/State*<br>
+                <input class="detailsInput" type="text" name="county">
+                County/State*<br>
+                <input class="detailsInput" type="text" name="county">
+                Phone Number*<br>
+                <input class="detailsInput" type="number" name="phone">
+                Email Address*<br>
+                <input class="detailsInput" type="email" name="email">
+                <h1 class="pageHeading">Credit Card Information</h1>
+                Card Type*<br>
+                <select class="detailsInput" name="cardType" placeholder="Card Type">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                </select>
+                Card Number*<br>
+                <input class="detailsInput" type="number" name="cardNumber">
+                Expiry Date*<br>
+                <select class="detailsInput leftInput"  name="month">
+                    <option value="1">Month</option>
+                    <option value="1">01</option>
+                    <option value="1">02</option>
+                    <option value="2">03</option>
+                    <option value="3">04</option>
+                    <option value="3">05</option>
+                    <option value="3">06</option>
+                    <option value="3">07</option>
+                    <option value="3">08</option>
+                    <option value="3">09</option>
+                    <option value="3">10</option>
+                    <option value="3">11</option>
+                    <option value="3">12</option>
+                </select>
+                <select class="detailsInput rightInput"  name="year">
+                    <option value="1">Year</option>
+                    <option value="1">2016</option>
+                    <option value="1">2017</option>
+                    <option value="2">2018</option>
+                    <option value="3">2019</option>
+                    <option value="3">2020</option>
+                    <option value="3">2021</option>
+                    <option value="3">2022</option>
+                    <option value="3">2023</option>
+                    <option value="3">2024</option>
+                    <option value="3">2025</option>
+                    <option value="3"2026</option>
+                </select>
+                <div class="leftInput">
+                    CVS Number*<br>
+                    <input class="detailsInput" type="number" name="cvsNumber">
+                </div><br>
+                Name on Card*<br>
+                <input class="detailsInput" type="text" name="cardName">
+                <br>
+                <p>Your credit card will be charged with a non-refundable deposit amount of €19.95. The remainder of the total rate will be charged at the hotel.
+                    <br>An additional €2.95 non-refundable booking fee will apply to each booking.
+                    <br>All prices are inclusive of VAT </p>
+                <h4>Cancellation Policy</h4>
+                <p>Cancellations can be made free of charge up to 48 hours in advance of arrival by using the link in your email booking confirmation. Changes to bookings can only be made by calling the hotel directly. For cancellations within this time, or in the case of a no show, the first nights stay will be charged. All deposits and booking fees are non-refundable.</p>
+                <h4>Additional Email Confirmations</h4>
+                <p>We can send confirmation of your reservation to a second email address. Please note that any person who receives this notification will be able to cancel your reservation.</p>
+                Email Address<br>
+                <input class="detailsInput" type="email" name="secondEmail">
+                <h4>Register for email updates and offers</h4>
+                <input type="checkbox" name="register" value="register">Yes, I would like to hear about updates and special offers by email.<br>
+                <br>
+                <input class="continueBookButton" type="submit" value="CONFIRM BOOKING">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid footer">
+
+    <!--<div class="container">-->
+        <!--<a href="index.html"><img  id="footerLogo" src="images/logo_footer.png"></a>-->
+        <!--<a href="#"><img class="socialMediaIconFooter hidden-xs" src="images/icon_white_fb.png"></a>-->
+        <!--<a href="#"><img class="socialMediaIconFooter hidden-xs" src="images/icon_white_tw.png"></a>-->
+        <!--<a href="#"><img class="socialMediaIconFooter hidden-xs" src="images/icon_white_in.png"></a>-->
+    <!--</div>-->
+    <p><a href="http://www.p3hotels.com/">Booking Engine Powered by P3 Hotels</a> - Terms & Conditions</p>
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    $(function() {
+        var $affixElement = $('div[data-spy="affix"]');
+        $affixElement.width($("#titleInput").width()-(20));
+    });
+</script>
+
+
+
+
+</body>
+</html>

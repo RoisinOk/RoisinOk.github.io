@@ -1,0 +1,867 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #85878a;
+}
+
+#headerLogo{
+    margin: 20px 0px 10px 0px;
+    height:60px;
+}
+
+/*span.glyphicon {*/
+    /*font-size: 1.8em;*/
+/*}*/
+
+.yellowText{
+    color: #f3a321;
+    /*font-size: 1.5em;*/
+}
+
+.yellowText .glyphicon{
+    /*font-size: 1.2em;*/
+    padding: 10px;
+}
+
+.socialMediaIcon{
+    float: right;
+    margin: 50px 6px 0 6px;
+}
+
+.jumbotron{
+    background: url("images/banner.png") no-repeat center center;
+    height: 600px;
+    background-size: cover;
+}
+
+
+#bookingWidget{
+    background-color: #00b0c0;
+    height: 450px;
+    border-radius: 0 0 8px 8px;
+    color: white;
+}
+
+#bookingForm{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 4px;
+    margin-top: -8px;
+}
+
+.formHeading{
+    /*font-size: 2em;*/
+    text-align: center;
+    line-height: 72px;
+    height: 72px;
+    background-color: #00b0c0;
+    border-radius: 8px;
+    color: white;
+}
+
+.formSubHeading{
+   /*font-size: 1.6em;*/
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.formInput{
+    border:none;
+    background-color: white;
+    box-shadow: inset 0px 1px 3px 0px rgba(94, 92, 79, 0.5);
+    height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    color: #85878a;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#formSubmit{
+    width: 100%;
+    height: 44px;
+    background-color: #920e2d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    /*font-size: 1em;*/
+    /*font-weight: 600;*/
+}
+
+#dateInput{
+    width: 48%;
+    display: block;
+    float: left
+}
+
+#nightSelect{
+    width: 48%;
+    display: block;
+    float: right;
+}
+
+#adultsSelect{
+    width: 48%;
+    display: block;
+    float: left
+}
+
+#kidsSelect{
+    width: 48%;
+    display: block;
+    float: right;
+}
+
+
+.overlay{
+    position: absolute;
+    height: 60px;
+    bottom: 0px;
+    background-color: rgba(0,176,192, 0.8);
+    color: white;
+}
+
+.overlay p{
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+
+.fluidNav{
+    background-color: #f3a321;
+    color: #ffffff;
+    /*font-size: 1.2em;*/
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.imageDiv{
+    position: relative;
+    width: 99.5%;
+}
+
+
+
+.wideGutter{
+    width: 99.5%;
+}
+
+#iconMoney{
+    display: block;
+    margin: auto;
+
+}
+
+.iconText{
+    height: 200px;
+    width: 200px;
+    color: #920e2d;
+    text-align: center;
+    font-weight: 600;
+}
+
+.iconText p {
+    margin-top: 20px;
+}
+
+
+.floatRight{
+    float: right;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.footer{
+    background-color: #00b0c0;
+    height: 150px;
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+    /*line-height: 1em;*/
+    margin-top: 20px;
+}
+
+#footerLogo{
+    margin-top: 30px;
+    height:60px;
+}
+
+.socialMediaIconFooter{
+    float: right;
+    margin: 12px 6px 0 6px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++BP 2 HOTEL TILES PAGE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.overlayTiles{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0,176,192, 0.8);
+    color: white;
+    width: 100%;
+}
+
+.carousel-control.noShadow, .carousel-control.noShadow {
+    background-image: none;
+    opacity: 1;
+}
+
+.hotelNameTiles{
+    /*font-size: 1.4em;*/
+    font-weight: 300;
+    margin: 6px 0 6px 10px;
+}
+
+.stars{
+    padding-left: 10px;
+    /*font-size: .8em;*/
+}
+
+.hotelNameTiles .glyphicon-star{
+    color: white;
+    /*font-size: .8em;*/
+    padding-left: 2px;
+}
+
+.hotelAddressTiles{
+   margin-left: 10px;
+    /*line-height: 1.2em;*/
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++BP 2 HOTEL LIST PAGE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.hotelRow{
+    border-top: solid 2px lightgray;
+    margin-bottom: 20px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.bookHotelButton{
+    height: 44px;
+    background-color: #920e2d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    /*font-size: 1em;*/
+    /*margin: 20px 0 0 0;*/
+    width: 100%;
+}
+
+.hotelNameList{
+    color: #00b0c0;
+    /*font-size: 2em;*/
+}
+
+.hotelAddressList{
+    /*font-size: 1.2em;*/
+    height: 0;
+}
+
+.hotelNameList .glyphicon-star{
+    color: #00b0c0;
+    /*font-size: .8em;*/
+    padding-left: 2px;
+}
+
+
+.hotelListPrice{
+    /*font-size: 1em;*/
+    text-align: center;
+    width: 54%;
+}
+
+.hotelPrice{
+    color: #00b0c0;
+    font-weight: 400;
+    /*font-size: 3em;*/
+    vertical-align: middle;
+}
+.fromLeft{
+    /*line-height: 3em;*/
+    /*font-size: 1.1em;*/
+    float: left;
+}
+
+.fromRight{
+    /*line-height: 3em;*/
+    /*font-size: 1.1em;*/
+    float: right;
+}
+
+.listCal{
+    color: #00b0c0;
+    /*font-size: 2em;*/
+    cursor: pointer;
+    padding-top: 50px;
+}
+
+.listCal:hover{
+    color: #00b0c0;
+    opacity: .8;
+    text-decoration: none;
+
+}
+
+
+.hotelRow .carousel-inner{
+    max-height: 160px;
+    background-color: plum;
+}
+
+.hotelNameList a{
+    text-decoration: none;
+    color: #00b0c0;
+}
+
+.horizontalFormInput{
+    border:none;
+    background-color: white;
+    box-shadow: inset 0px 1px 3px 0px rgba(94, 92, 79, 0.5);
+    height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    color: #85878a;
+    padding-left: 10px;
+    margin: 15px 0 15px 0;
+}
+
+.horizontalFormBG{
+    background-color: #00b0c0;
+}
+
+.monthHeading{
+    text-align: center;
+    /*font-size: 1.4em;*/
+    margin-bottom: 12px;
+}
+
+.monthHeading .glyphicon{
+    color: #00b0c0;
+    cursor: pointer;
+    /*font-size: 1.4em;*/
+    padding: 0 20px 0 20px;
+    vertical-align: middle;
+}
+
+.monthName{
+    vertical-align:middle;
+}
+
+.dayHeadings{
+    /*font-size: 1.2em;*/
+    color: white;
+}
+
+
+.wholeCalendar{
+    padding-bottom: 20px;
+    margin-top: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.calendarBG{
+    background-color: #00b0c0;
+}
+
+.calendarDay{
+    position: relative;
+    background-color: white;
+    box-shadow: inset 5px 5px 10px 0px rgba(94, 92, 79, 0.1);
+    height: 60px;
+    border-radius: 2px;
+    margin: 0 -10px 10px -10px;
+    cursor: pointer;
+}
+
+.calendarDay:hover{
+    background-color: linen;
+}
+
+.firstCalCol{
+    background-color: #00b0c0;
+    /*padding-left: 20px;*/
+}
+
+.lastCalCol{
+    background-color: #00b0c0;
+    /*padding-right: 20px;*/
+}
+
+.calendarDate{
+    position: absolute;
+    padding-right: 10px;
+    right: 0;
+}
+
+.calendarPrice{
+    /*font-size: 1.4em;*/
+    color: #00b0c0;
+    text-align: center;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: -24px;
+    right: 0;
+}
+
+.notMonth{
+    opacity: .5;
+}
+
+.notAvailable{
+    opacity: .8;
+    cursor: auto;
+}
+
+.notAvailable .calendarPrice{
+    color: #00b0c0;
+    /*font-size: 1em;*/
+}
+
+.notAvailable:hover{
+    opacity: .8;
+    background-color: white;
+}
+
+.selected{
+    background-color:  #f3a321;
+    color: white;
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+.selected .calendarPrice{
+    color: white;
+}
+
+.selected:hover{
+    background-color:  #f3a321;
+    color: white;
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++BP 4 CHOOSE ROOMS PAGE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.pageHeading{
+    color: #00b0c0;
+    font-weight: 400;
+    /*font-size: 3em;*/
+    margin-bottom: 30px;
+}
+
+.roomType{
+    padding:20px;
+    border: 2px solid #00b0c0;
+    margin-bottom: 20px;
+}
+
+.roomPrice {
+    /*font-size: 2em;*/
+    float: right;
+}
+
+.bookingSummary h4{
+    color: #00b0c0;
+    /*font-size: 1.4em;*/
+}
+
+.bookingInfo{
+    color: #85878a;
+    /*font-size: 1.2em;*/
+    /*line-height: 2.2em;*/
+    padding: 20px;
+}
+
+.myRadio{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+
+
+.rightInfo{
+    text-align: right;
+}
+
+ .textArea{
+    width: 100%;
+    border: 2px solid #00b0c0;
+}
+.continueBookButton{
+    float:right;
+    width: 50%;
+    height: 44px;
+    background-color: #920e2d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    /*font-size: 1em;*/
+    margin: 10px 0 10px 0;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++BP 5 PAYMENT PAGE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+#detailsForm h4{
+    width:98%;
+    color: #00b0c0;
+    margin: 20px 0 20px 0;
+}
+
+
+.detailsInput{
+    width: 100%;
+    border: 2px solid #00b0c0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    background-color: white;
+    height: 44px;
+    padding-left: 10px;
+    margin-bottom:20px;
+}
+
+.rightInput{
+    display: inline-block;
+    width: 48%;
+    float: right;
+}
+
+.leftInput{
+    display: inline-block;
+    width: 48%
+}
+
+.moneyInfo{
+    font-weight: 600;
+    color: #00b0c0;
+}
+
+.totalCost{
+    /*font-size: 1.6em;*/
+    /*line-height: 1.6em;*/
+}
+
+
+.bsCol{
+    position: relative !important;
+}
+
+.bookingSummary{
+    background-color: Linen;
+    margin-top: 26px;
+    padding: 20px;
+}
+
+.affix{
+    top: 10px !important;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++BP 3 HOTEL PAGE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+#backBar{
+    height: 50px;
+    background-color: #00b0c0;
+}
+
+.hotelInfo h1{
+    text-align: center;
+    color: #00b0c0;
+    font-weight: 300;
+    padding: 30px;
+}
+
+.overViewText{
+    text-align: center;
+}
+
+.hotelInfo h3{
+    text-align: center;
+    color: #00b0c0;
+    font-weight: 300;
+    margin: 50px;
+}
+
+.offer{
+    border: solid 2px lightgray;
+    margin: 20px 0 20px 0;
+}
+
+.offerImage{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.offerText{
+    text-align: left;
+}
+
+.moreInfo{
+    color: #00b0c0;
+    font-weight: 600;
+}
+
+.offerName{
+    text-align: left;
+    /*font-size: 1.5em;*/
+    font-weight: 300;
+    /*line-height: 1.5;*/
+
+}
+
+.bookOfferButton{
+    width: 100%;
+    height: 44px;
+    background-color: #920e2d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    /*font-size: 1em;*/
+    margin-top: 35px;
+}
+
+
+.blueCal{
+    margin-left: 10px;
+    /*line-height: .8em;*/
+}
+
+.blueDates{
+    margin-top: 15px;
+    color: #00b0c0;
+    float: right;
+}
+
+.locationTable{
+    vertical-align: top;
+}
+
+.locationTable .glyphicon {
+    color: #00b0c0;
+    /*font-size: 1.4em;*/
+    margin-right: 20px;
+}
+
+.locationTable td{
+    padding-bottom: 20px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++MEDIA QUERIES++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*Tablet Portrait & Mobile*/
+@media (max-width: 767px) {
+    #footerLogo{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+
+    #headerLogo{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+
+    .footer p{
+        /*font-size: .8em;*/
+        /*line-height: .8em;*/
+    }
+
+    .imageDiv{
+        margin-bottom: 20px;
+    }
+
+    .pageHeading{
+        /*font-size: 1.8em;*/
+    }
+
+    .hotelInfo h3{
+        margin: 20px;
+    }
+
+    .hotelInfo h1{
+       /*font-size: 2em;*/
+        padding: 20px;
+    }
+
+
+    .bookingSummary {
+        position: relative;
+    }
+
+    .roomImage{
+       height: 200%;
+
+    }
+
+    .blueDates{
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .bookOfferButton{
+        margin: 0 0 15px 0;
+    }
+
+    .locationTable{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .glyphicon-menu-hamburger{
+        /*line-height: 20px;*/
+    }
+
+
+    .navbar-toggle{
+        margin:0;
+        height: 50px;
+    }
+
+    .bookingSummary{
+        /*font-size: .8em;*/
+    }
+
+    .hotelAddressTiles{
+        /*font-size: .8em;*/
+
+    }
+
+    .hotelNameTiles{
+        /*font-size: 1em;*/
+    }
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+
+/*Tablet Landscape & Small desktops*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .bookingSummary {
+        position: relative;
+    }
+
+    .bookOfferButton{
+        margin: 0 0 15px 0;
+    }
+
+    .blueDates{
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    .hotelAddressTiles{
+        /*font-size: .8em;*/
+    }
+
+    .hotelNameTiles{
+        /*font-size: 1.2em;*/
+    }
+
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+
+    .hotelRow{
+        margin-bottom: 10px;
+        padding-top: 16px;
+    }
+
+    .hotelNameList {
+        /*font-size: 1.3em;*/
+    }
+
+    .hotelAddressList{
+        /*font-size: 1em;*/
+        /*line-height: 1.5em;*/
+    }
+
+    .hotelPrice{
+        /*font-size: 2em;*/
+    }
+
+    .fromRight, .fromLeft{
+        /*line-height: 2em;*/
+        /*font-size: 1em;*/
+    }
+
+    .listCal{
+        /*font-size: 1.5em;*/
+        margin-top: 0;
+        padding-top: 22px;
+    }
+
+    .stars{
+        padding-left: 10px;
+        /*font-size: .8em;*/
+    }
+
+}
+
+
+/*Medium Desktops*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+
+
+/*Large Desktops*/
+
+@media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+/* 14% = 100% (full-width row) divided by 7 */
+
+
